@@ -4,25 +4,27 @@
 Installation
 ============
 
-
 Stable release
 --------------
 
-Installation
+### Required Packages
 
 Ensure the following packages are installed:
 
-NumPy
-SciPy
-Matplotlib
-Scikit-learn
-Networkx
-FLANN (pyflann)
-SLEPc4py
-PETSc4py
-MPI4Py (for parallel processing)
-Install Scaman using conda:
+- NumPy
+- SciPy
+- Matplotlib
+- Scikit-learn
+- Networkx
+- FLANN (pyflann)
+- SLEPc4py
+- PETSc4py
+- MPI4Py (for parallel processing)
 
-conda create --name scaman_env --file requirements.txt --channel conda-forge
+### Installation
 
+To install Scaman using conda:
 
+.. code-block:: shell
+
+   conda create --name scaman_env --file requirements.txt --channel conda-forge
