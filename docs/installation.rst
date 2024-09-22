@@ -8,44 +8,21 @@ Installation
 Stable release
 --------------
 
-To install scaman, run this command in your terminal:
+Installation
 
-.. code-block:: console
+Ensure the following packages are installed:
 
-    $ pip install scaman
+NumPy
+SciPy
+Matplotlib
+Scikit-learn
+Networkx
+FLANN (pyflann)
+SLEPc4py
+PETSc4py
+MPI4Py (for parallel processing)
+Install Scaman using conda:
 
-This is the preferred method to install scaman, as it will always install the most recent stable release.
-
-If you don't have `pip`_ installed, this `Python installation guide`_ can guide
-you through the process.
-
-.. _pip: https://pip.pypa.io
-.. _Python installation guide: http://docs.python-guide.org/en/latest/starting/installation/
-
-
-From sources
-------------
-
-The sources for scaman can be downloaded from the `Github repo`_.
-
-You can either clone the public repository:
-
-.. code-block:: console
-
-    $ git clone git://github.com/berkepehlivan/scaman
-
-Or download the `tarball`_:
-
-.. code-block:: console
-
-    $ curl -OJL https://github.com/berkepehlivan/scaman/tarball/master
-
-Once you have a copy of the source, you can install it with:
-
-.. code-block:: console
-
-    $ python setup.py install
+conda create --name scaman_env --file requirements.txt --channel conda-forge
 
 
-.. _Github repo: https://github.com/berkepehlivan/scaman
-.. _tarball: https://github.com/berkepehlivan/scaman/tarball/master
